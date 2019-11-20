@@ -4,7 +4,7 @@ Desc:
 
 Q1.
 
-Write a JavaScript function that asks the user for two numbers, x and y, then prints out xy.
+Write a JavaScript function that asks the user for two numbers, x and y, then prints out x^y.
 
 Q2
 
