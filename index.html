@@ -9,5 +9,22 @@
   <script type="text/javascript">
     document.write("Text written using JavaScript code!");
   </script>
+  
+  <p>Click the button to take two inputs, and then display <br>the second input as a superscript of the first!</p>
+  <button onclick="myFunction()">Try it</button>
+
+  <p id="demo"></p>
+
+  <script>
+  function add() {
+  var first = prompt("Please enter anything!", "0");
+  var second = prompt("Please enter anything again!", "0");
+    if (first != null) {
+      document.getElementById("demo").innerHTML =
+      first + second;
+    }
+  }
+</script>
+  
 </body>
 </html>
