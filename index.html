@@ -8,16 +8,45 @@
   
   <p>Click the button to take two inputs, and then display <br>the second input as a superscript of the first!</p>
   
-  <button onclick="myFunction()">Try it</button>
-
+  <!--A clickable button from problem one-->
+  <button onclick="myFunctionOne()">Try it</button>
+  <!--Where the inputs are output-->
   <p id="super"></p>
+  
+  <!--A clickable button from problem two-->
+  <button onclick="myFunctionTwo()">Try it</button>
+  <!--Where the inputs are output-->
+  <p id="factorial"></p>
 
   <script type="text/javascript">
-    function myFunction() {
-    var one = window.prompt("First input?");
-    var two = window.prompt("Second input?");
-    var result = two.sup();
-    document.getElementById("super").innerHTML = one + result;
+    //This function is run when the first button is pressed
+    function myFunctionOne() {
+      //Taking inputs
+      var one = window.prompt("First input?");
+      var two = window.prompt("Second input?");
+      
+      //Creating a superscript
+      var result = two.sup();
+      
+      //Combining inputs
+      document.getElementById("super").innerHTML = one + result;
+    }
+    
+    //This function is run when the second button is pressed
+    function myFunctionTwo() {
+      //Taking inputs
+      var number = window.prompt("What number would you like the factorial of?");
+      
+      //Doing the math via while loop
+      int total;
+      while (number > 0) {
+        total = number
+         System.out.println(i);
+       i++;
+      }
+      
+      //Combining inputs
+      document.getElementById("super").innerHTML = one + result;
     }
   </script>
   
