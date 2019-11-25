@@ -28,10 +28,11 @@
     }
   </script>
   
-    <!--A clickable button from problem two-->
+  <!--A clickable button from problem two-->
   <button onclick="myFunctionTwo()">Try it</button>
   <!--Where the inputs are output-->
   <p id="factorial"></p>
+  
   <script type="text/javascript">
     //This function is run when the second button is pressed
     function myFunctionTwo() {
@@ -39,7 +40,7 @@
       var number = window.prompt("What number would you like the factorial of?");
       
       //Doing the math via while loop
-      int total = 1;
+      var total = 1;
       while (number > 0) {
         total = total * number;
       }
